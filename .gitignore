@@ -1,4 +1,7 @@
+.DS_Store
 /auth0
 /iterm2
 /rstudio
 /nvim/neovim
+/tcpdump-4.99.5
+/wireshark
