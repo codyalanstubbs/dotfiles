@@ -9,6 +9,7 @@ return {
             "gomod",
             "gowork",
             "gosum",
+            "php"
         },
     },
 }
