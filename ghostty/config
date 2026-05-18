@@ -1,0 +1,28 @@
+gtk-tabs-location = hidden
+window-decoration = false
+
+# Monochrome (greyscale) theme
+background = #0a0a0a
+foreground = #e6e6e6
+cursor-color = #ffffff
+cursor-text = #000000
+selection-background = #444444
+selection-foreground = #ffffff
+
+# ANSI palette — varied greys so syntax/diffs/prompts remain distinguishable
+palette = 0=#1a1a1a
+palette = 1=#9a9a9a
+palette = 2=#bfbfbf
+palette = 3=#d4d4d4
+palette = 4=#7a7a7a
+palette = 5=#a8a8a8
+palette = 6=#c8c8c8
+palette = 7=#cfcfcf
+palette = 8=#5a5a5a
+palette = 9=#b0b0b0
+palette = 10=#d0d0d0
+palette = 11=#e2e2e2
+palette = 12=#909090
+palette = 13=#bcbcbc
+palette = 14=#dcdcdc
+palette = 15=#ffffff
