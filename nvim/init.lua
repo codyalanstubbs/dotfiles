@@ -912,12 +912,18 @@ require('lazy').setup({
     },
   },
 
-  { -- Black-and-white (greyscale) colorscheme.
-    -- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`.
-    'kdheepak/monochrome.nvim',
-    priority = 1000, -- Make sure to load this before all the other start plugins.
+  { -- Cyberdream: near-black bg, vibrant-soft pastel accents.
+    'scottmckendry/cyberdream.nvim',
+    lazy = false,
+    priority = 1000,
     config = function()
-      vim.cmd.colorscheme 'monochrome'
+      require('cyberdream').setup({
+        transparent = false,
+        italic_comments = true,
+        borderless_telescope = true,
+        terminal_colors = true,
+      })
+      vim.cmd.colorscheme('cyberdream')
     end,
   },
 

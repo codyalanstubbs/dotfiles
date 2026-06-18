@@ -52,14 +52,14 @@ else
 fi
 
 # ──────────────────────────────────────────────────────────────────────────
-# Prompt — minimal monochrome:  ~/path (git-branch) ❯
+# Prompt — Cyberdream:  ~/path (git-branch) ❯
 # ──────────────────────────────────────────────────────────────────────────
 autoload -Uz vcs_info
-zstyle ':vcs_info:git:*' formats ' %F{244}(%b)%f'
+zstyle ':vcs_info:git:*' formats ' %F{#f485dd}(%b)%f'   # soft pink branch
 zstyle ':vcs_info:*' enable git
 precmd() { vcs_info }
 setopt prompt_subst
-PROMPT='%F{252}%~%f${vcs_info_msg_0_} %F{248}❯%f '
+PROMPT='%F{#5ef1ff}%~%f${vcs_info_msg_0_} %F{#5eff6c}❯%f '   # cyan path, green prompt
 
 # ──────────────────────────────────────────────────────────────────────────
 # PATH
